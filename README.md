@@ -34,3 +34,9 @@ Each noun–property pair was rated by the model using **simple, uniform prompts
 ```json
 {"pre-prompt": "Output ONLY 1-10. How heavy would you rate this noun: ", "property": "weight"}
 {"pre-prompt": "Output ONLY 1-10. How intelligent would you rate this noun: ", "property": "intelligence"}
+```
+```cmd
+git clone https://github.com/cpawlenok/llm-property-rating.git
+cd llm-property-rating
+jupyter notebook
+```
